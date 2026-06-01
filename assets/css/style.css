@@ -155,3 +155,32 @@ header h1 {
     width: 100%;
 }
 
+/* Projetos */
+
+#projetos {
+    gap: 1.5rem;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    padding: 1.25rem;
+    border-radius: 4px;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card > h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
