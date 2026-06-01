@@ -133,3 +133,25 @@ header h1 {
     margin: 0;
 }
 
+/* Sobre */ 
+
+#sobre {
+    gap: 1rem;
+    
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    
+}
+
+#sobre > img {
+    border-radius: 4px;
+    
+}
+
+.sobre-links {
+    display: flex;
+    gap: 1.5rem;
+    
+    width: 100%;
+}
+
