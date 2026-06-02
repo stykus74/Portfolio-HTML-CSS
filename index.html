@@ -13,18 +13,20 @@
     <title>Portfólio</title>
 </head>
 <body>
-    <header>
-        <h1>Portfólio</h1>
-    
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#conhecimentos">Conhecimentos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+    <div class="bg-dark">
+        <header>
+            <h1>Portfólio</h1>
+        
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#servicos">Conhecimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </header>
+    </div>
 
     <main>
         <section id="home">
@@ -38,30 +40,60 @@
                     <i class="fa-brands fa-github fa-xl"></i>@stykus74
                     </a>
             </div>
+
+
         </section>
 
-        <section id="sobre">
-            <h2>Sobre</h2>
-
-            <img src="/assets/img/aboutspaceIMG.jpg" alt="Uma foto de uma estação espacial próxima de um buraco negro.">
-
-            <div class="sobre-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quis hic. Perspiciatis ipsa qui vero.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem qui optio vitae doloribus molestiae minus sint nobis veniam reiciendis, vero deleniti modi incidunt corporis sunt molestias, voluptatem, mollitia consectetur?</p>
-            </div>
-
-            <div class="sobre-links">
-                <a class="btn w-100" href="https://www.linkedin.com/in/enzo-murno/">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                    @EnzoMurno
-                </a>
-                <a class="btn w-100" href="https://www.instagram.com/e.murno_/">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
-                    @e.murno_
-                </a>
-                    
-            </div>
-        </section>
+        <div class="bg-dark">
+            <section id="sobre">
+                <div class="mobile-sobre">
+                    <h2>Sobre</h2>
+                    <img
+                    src="/assets/img/eumesmoIMG.jpeg"
+                    alt="Uma foto de um homem de fone sorrindo e dando um joinha."
+                    />
+                    <div class="sobre-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quis hic. Perspiciatis ipsa qui vero.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem qui optio vitae doloribus molestiae minus sint nobis veniam reiciendis, vero deleniti modi incidunt corporis sunt molestias, voluptatem, mollitia consectetur?</p>
+                    </div>
+                    <div class="sobre-links">
+                        <a class="btn w-100" href="https://www.linkedin.com/in/enzo-murno/">
+                            <i class="fa-brands fa-linkedin fa-xl"></i>
+                            @EnzoMurno
+                        </a>
+                        <a class="btn w-100" href="https://www.instagram.com/e.murno_/">
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+                            @e.murno_
+                        </a>
+                    </div>
+                </div>
+                <div class="desktop-sobre">
+                    <div class="sobre-left">
+                        <img
+                            src="/assets/img/eumesmoIMG.jpeg"
+                            alt="Uma foto de um homem de fone sorrindo e dando um joinha."
+                        />
+                        <div class="sobre-links">
+                                <a class="btn w-100" href="https://www.linkedin.com/in/enzo-murno/">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            @EnzoMurno
+                            </a>
+                                <a class="btn w-100" href="https://www.instagram.com/e.murno_/">
+                                <i class="fa-brands fa-instagram fa-xl"></i>
+                            @e.murno_
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sobre-right">
+                        <h2>Sobre</h2>
+                        <div class="sobre-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quis hic. Perspiciatis ipsa qui vero.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem qui optio vitae doloribus molestiae minus sint nobis veniam reiciendis, vero deleniti modi incidunt corporis sunt molestias, voluptatem, mollitia consectetur?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         
         <section id="projetos">
@@ -69,7 +101,10 @@
             
             <div class="cards-wrapper">
                 <article class="card">
-                    <img src="assets/img/cards/projetosIMG1.avif" alt="Uma caneta bico de pato escrevendo em um papel.">
+                    <img 
+                    src="./assets/img/cards/projetosIMG1.avif" 
+                    alt="Uma caneta bico de pato escrevendo em um papel."
+                    />
                 
                 <h3>História Maluca</h3>
                 
@@ -97,32 +132,35 @@
                 <i class="fa-brands fa-github fa-xl"></i>Repositórios no GitHub
             </a>
         </section>
- <section id="servicos">
-            <div class="servicos">
-                <h2>Serviços</h2>
-                <ul class="base-list servicos-list">
-                    <li>Web Development</li>
-                    <li>Video Editing</li>
-                    <li>Web Design</li>
-                </ul>
-            </div>
+        
+        <div class="bg-dark">
+            <section id="servicos">
+                <div class="servicos">
+                    <h2>Serviços</h2>
+                    <ul class="base-list servicos-list">
+                        <li>Web Development</li>
+                        <li>Video Editing</li>
+                        <li>Web Design</li>
+                    </ul>
+                </div>
             
-            <div class="conhecimentos">
-                <h2>Conhecimentos</h2>
-                <ul class="base-list conhecimentos-list">
-                    <li><i class="fa-brands fa-html5 fa-4x"></i></li>
-                    <li><i class="fa-brands fa-css3-alt fa-4x"></i></li>
-                    <li><i class="fa-brands fa-square-js fa-4x"></i></li>
-                    <li><i class="fa-brands fa-figma fa-4x"></i></li>
-                    <li><img 
-                        src="assets/img/icon-photoshop.svg" 
-                        alt="icone photoshop"
-                        />
-                    </li>
-                    <li><i class="fa-brands fa-git fa-4x"></i></li>
-                </ul>
-            </div>
-        </section>
+                <div class="conhecimentos">
+                    <h2>Conhecimentos</h2>
+                    <ul class="base-list conhecimentos-list">
+                        <li><i class="fa-brands fa-html5 fa-4x"></i></li>
+                        <li><i class="fa-brands fa-css3-alt fa-4x"></i></li>
+                        <li><i class="fa-brands fa-square-js fa-4x"></i></li>
+                        <li><i class="fa-brands fa-figma fa-4x"></i></li>
+                        <li><img
+                            src="assets/img/icon-photoshop.svg"
+                            alt="icone photoshop"
+                            />
+                        </li>
+                        <li><i class="fa-brands fa-git fa-4x"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
 
         <section id="contato">
             <h2>Entre em contato!</h2>
