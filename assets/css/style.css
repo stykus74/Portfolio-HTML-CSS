@@ -132,8 +132,8 @@ header nav a {
 
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url('/assets/img/metal_upa_IMG.png'),
-    url('/assets/img/s-gLogoIMG.png');
+    url('../img/metal_upa_IMG.png'),
+    url('../img/s-gLogoIMG.png');
     background-repeat: no-repeat;
     background-position: rem;
     background-size: 400px;
@@ -175,9 +175,9 @@ header nav a {
         height: 100%;
 
         background-image: 
-        url(/assets/img/metal_upa_IMG.png),
+        url(../img/metal_upa_IMG.png),
         linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
-        url(/assets/img/s-gLogoIMG.png);
+        url(../img/s-gLogoIMG.png);
         
         background-repeat: no-repeat; 
         background-position: 
